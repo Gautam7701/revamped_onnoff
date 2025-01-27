@@ -21,7 +21,7 @@ const page = () => {
               <div className="banner_text">
                 <h4>We are Digital Agency</h4>
                 <h1 className="banner_title">
-                  Helping the Brands to{" "}
+                  Help the Brands to{" "}
                   <span className="edit">
                     Grow <b>Business.</b>
                   </span>
