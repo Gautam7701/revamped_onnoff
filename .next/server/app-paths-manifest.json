@@ -1,9 +1,4 @@
 {
-  "/portfolio/page": "app/portfolio/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/portfolio_2/page": "app/portfolio_2/page.js",
   "/not-found": "app/not-found.js",
-  "/portfolio_details/page": "app/portfolio_details/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/page": "app/page.js"
 }

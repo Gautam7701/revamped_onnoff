@@ -4,6 +4,7 @@ import TestimonialSlider from "@/components/TestimonialSlider";
 import FxotaryLayout from "@/layout/FxotaryLayout";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import "../public/css/responsive.css"
 const page = () => {
   return (
     <FxotaryLayout>
@@ -21,7 +22,7 @@ const page = () => {
                 <h4>We are Digital Agency</h4>
                 <h1 className="banner_title">
                   Helping the Brands to{" "}
-                  <span>
+                  <span className="edit">
                     Grow <b>Business.</b>
                   </span>
                 </h1>
@@ -270,11 +271,12 @@ const page = () => {
                     alt="projext"
                     className="img-fluid w-100"
                   />
-                </div>
-                <div className="text d-flex flex-column">
+                  <div className="text d-flex flex-column">
                   <h3>Mark Wide Website</h3>
                   <h3>Design Project</h3>
                 </div>
+                </div>
+                
               </Link>
             </div>
             <div className="col-xl-5 col-md-6">

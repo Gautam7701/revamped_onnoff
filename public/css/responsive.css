@@ -1752,12 +1752,16 @@
 
   .banner_text h1,
   .banner_text h1 span {
-    font-size: 48px;
+    font-size: 28px;
   }
 
   .banner_text h1 span {
     padding-left: 90px;
   }
+  /* .edit{
+    font-size:30px;
+  } */
+
 
   .banner_img {
     width: 100%;
@@ -1783,12 +1787,16 @@
   }
 
   .about_img_1 .img {
-    height: 380px;
+    height: 300px;
+    padding-right:50px;
+    /* border-radius: 15px; */
   }
 
-  .about_img_2 {
-    height: 380px;
+  .about_img_2{
     margin-top: 50px;
+    height: 300px;
+    padding-right:50px;
+    border-radius: 15px;
   }
 
   .what_we_do_text {
@@ -1829,7 +1837,8 @@
   }
 
   .latest_project_img {
-    height: 350px;
+    height: 300px;
+    padding-right: 50px;
   }
 
   .latest_project_img .text h3 {
@@ -1896,7 +1905,8 @@
   }
 
   .achivement_img .img_1 {
-    height: 350px;
+    height: 300px;
+    padding-right: 50px;
   }
 
   .achivement_img .img_2 {
@@ -2182,6 +2192,10 @@
         SERVICES PAGE START
     ==================================*/
 
+    .row{
+      padding: 20px 15px;
+    }
+
   .tf__service_2_img {
     height: 400px;
     margin-left: 10px;
@@ -2367,6 +2381,7 @@
   .main_menu .container-fluid,
   .main_menu .container {
     padding: 15px 0px;
+    /* display: flex; */
   }
 
   .navbar-brand {
@@ -2450,7 +2465,10 @@
 
   .banner_text h1,
   .banner_text h1 span {
-    font-size: 40px;
+    font-size: 31px;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* color: red; */
   }
 
   .banner_text h1 span {
@@ -2482,6 +2500,9 @@
     bottom: -120px;
   }
 
+  .row{
+    padding: 20px 15px;
+  }
   .about_text {
     margin-bottom: 50px;
   }

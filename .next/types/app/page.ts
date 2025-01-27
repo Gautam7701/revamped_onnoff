@@ -1,4 +1,4 @@
-// File: D:\Projects\onnoff_revamped\app\page.js
+// File: C:\Users\dell\Downloads\React Projects\Onoff\revamped_onnoff\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
